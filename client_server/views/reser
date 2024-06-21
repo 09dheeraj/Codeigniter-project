@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <link rel="icon"  href="./assets/images/logo.png">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>reset password</title>
+      <link rel="stylesheet" href="./assets/css/bootstrap.css">
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <link rel="stylesheet" href="./assets/css/responsive.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      </head>
+<body>
+<div class="data">
+    <div class="content">
+        <div class="sign-up-banner">
+            <div class="logo-sec text-center ">
+                <img src="assets/images/logo-3.png" alt="">
+            </div>
+            <div class="Sign-up-form sign-in-form  forgot-form">
+               
+
+                <form>
+                    <h2>Reset Password ?</h2>
+                  <p>Please enter otp  that has been send to your email.</p>
+                  
+                    <div class="tab" id="login_div">
+                        <form>
+                          
+                            <div class="row p-3">
+                                <div class="col-12">
+                                    <input type="text" class="form-control" placeholder="Enter OTP"  required>
+                                    <div class="invalid-feedback text-start ps-3" style="display: block;">
+                                        <img src="assets/images/exclamation-mark.png" alt="">
+                                    Invalid OTP entered
+                                      </div>
+                                </div>
+                            </div>
+                           
+                            <div class="row p-3">
+                                <div class="col-12">
+                                  
+                                    <input type="password" class="form-control" placeholder="Enter new password">
+                                </div>
+                            </div>
+                            <div class="row p-3">
+                                <div class="col-12">
+                               
+                                    <input type="password" class="form-control" placeholder=" Confirm Password">
+                                </div>
+                            </div>
+                            <div class="row p-3">
+                                <div class="col-12">
+                                    <div class="button-sec text-center">
+                                        <button class="sign-in-btn">Reset Password </button>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </form>
+                        </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+         </body>
+         </html>
